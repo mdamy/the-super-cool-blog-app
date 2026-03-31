@@ -9,6 +9,11 @@ export const schema: GadgetModel = {
   fields: {
     description: { type: "string", storageKey: "q9_87YoF4vio" },
     draft: { type: "boolean", storageKey: "ln-rJAms2hrg" },
+    publishedAt: {
+      type: "dateTime",
+      includeTime: true,
+      storageKey: "R1XxEUG8LQ1B",
+    },
     title: { type: "string", storageKey: "0oHDZJfhJC31" },
   },
 };
