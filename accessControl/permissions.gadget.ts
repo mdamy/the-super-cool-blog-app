@@ -16,6 +16,14 @@ export const permissions: GadgetPermissions = {
         action: true,
       },
       models: {
+        comment: {
+          read: true,
+          actions: {
+            create: true,
+            delete: true,
+            update: true,
+          },
+        },
         post: {
           read: true,
           actions: {
